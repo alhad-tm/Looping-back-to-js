@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="selet" style="color: blue"> Hello world</h1>
+    <h1 class="selet" style="color:red"> Hello world</h1>
+    <h1 class="selet" style="color:red"> Hello world</h1>
+    <h1 class="seletr" style="color:red"> Hello world</h1>
+
+
+    <script>
+
+        document.getElementById("selet").innerHTML = "I m changing"
+        document.getElementsByClassName("selet")[0].innerHTML=" I changed again!!!!"
+        document.getElementsByClassName("selet")[1].innerHTML=" I changed thrice again!!!!"
+
+        document.getElementsByClassName("seletr")[0].innerHTML=" I changed quadra!!!!"
+        document.getElementsByTagName("h1")[0].innerHTML=" I changed quadrAA!!!!"
+
+    </script>
+    
+</body>
+</html>
