@@ -43,3 +43,13 @@ function addFunction(val){
 console.log(addFunction(12));
 
 
+//Objects
+
+let user={
+    name:"Sam",
+    age:32,
+    place:"NewYork"
+
+}
+console.log(user);
+console.log("place : ",user.place);
